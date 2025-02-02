@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>con mucho amor</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #ffccdd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gracias por ser parte de mi vida</h1>
+    <h1>Daniela quieres ser mi novia</h1>
+    <button onclick="showSunflowers()">Si(no hay mas opcion sorry)</button>
+    <script>
+        function showSunflowers() {
+            var newWindow = window.open("", "_blank", "width=600,height=400");
+            newWindow.document.write(`
+                <html>
+                <head>
+                    <title>Girasoles</title>
+                    <style>
+                        body {
+                            text-align: center;
+                            font-family: Arial, sans-serif;
+                            background-color: #ffccdd;
+                        }
+                        img {
+                            width: 80%;
+                            margin-top: 20px;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <h2>En el jardin de tus ojos, florece mi destino,cada mirada tuya es un rayo de sol divino. Eres la melodia que acaricia mi ser, contigo amor mio siempre quiero renacer</h2>
+                    <img src="https://i.pinimg.com/originals/64/6b/a8/646ba88428abfb2ddbc85ef9b39d89aa.gif" alt="Girasoles">
+                </body>
+                </html>
+            `);
+        }
+    </script>
+</body>
+</html>
